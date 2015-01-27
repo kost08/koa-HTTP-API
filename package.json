@@ -4,8 +4,12 @@
   "description": "koa CRUD HTTP API",
   "main": "app.js",
   "scripts": {
+    "start": "node --harmony app.js"
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Stas K.",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^0.15.0"
+  }
 }
